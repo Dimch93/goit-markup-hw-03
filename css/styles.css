@@ -1,0 +1,190 @@
+:root {
+  --primary-font: Roboto, sans-serif;
+  --primary-gray-color: #434455;
+  --primary-white-color: #ffffff;
+  --primary-skyblue-color: #4d5ae5;
+  --primary-black-color: #2e2f42;
+  --primary-blue-color: #404bbf;
+  --primary-white1-color: #f4f4fd;
+}
+
+body {
+  font-family: var(--primary-font);
+  color: var(--primary-gray-color);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  background-color: var(--primary-white-color);
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+/* -----------header------------ */
+
+.page-header {
+  background: var(--primary-white-color);
+}
+
+.logo {
+  font-family: Raleway, sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-skyblue-color);
+}
+
+.logo span {
+  color: var(--primary-black-color);
+}
+
+.logo span:hover,
+.logo span:focus {
+  color: var(--primary-blue-color);
+}
+
+.page-nav {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--primary-black-color);
+}
+
+.page-nav:hover,
+.page-nav:focus {
+  color: var(--primary-blue-color);
+}
+
+.address {
+  font-style: normal;
+}
+
+.address-list {
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--primary-gray-color);
+}
+
+.address .address-list:hover,
+.address .address-list:focus {
+  color: var(--primary-blue-color);
+}
+
+/* -----main----- */
+/* -----hero----- */
+
+.hero {
+  background: var(--primary-black-color);
+}
+
+.page-title {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--primary-white-color);
+}
+
+.button {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--primary-white-color);
+  background: var(--primary-skyblue-color);
+  cursor: pointer;
+}
+
+.button:hover,
+.button:focus {
+  background: var(--primary-blue-color);
+}
+
+/* -----section Advantages----- */
+
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--primary-black-color);
+}
+
+.title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--primary-black-color);
+}
+
+.section-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--primary-gray-color);
+}
+
+.our-team {
+  background: var(--primary-white1-color);
+}
+
+.employees {
+  background: var(--primary-white-color);
+}
+
+/* -----footer----- */
+
+.footer {
+  font-family: Raleway, sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-skyblue-color);
+}
+.footer span {
+  color: #f4f4fd;
+}
+
+.footer-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--primary-white1-color);
+}
+
+/* -----portfolio----- */
+
+.btn {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--primary-skyblue-color);
+  background: var(--primary-white1-color);
+  cursor: pointer;
+}
+
+.btn:hover,
+.btn:focus {
+  color: var(--primary-white-color);
+  background: var(--primary-blue-color);
+}
