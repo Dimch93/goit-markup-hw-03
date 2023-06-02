@@ -344,17 +344,12 @@ ul {
 
 .div-container {
   display: flex;
-  gap: 24px;
+  flex-wrap: wrap;
+  gap: 48px 24px;
   padding-top: 72px;
+  padding-bottom: 120px;
 }
 
 .title-cont {
   padding: 35px 16px;
-}
-
-.div-container-last {
-  display: flex;
-  gap: 24px;
-  padding-top: 72px;
-  padding-bottom: 120px;
 }
