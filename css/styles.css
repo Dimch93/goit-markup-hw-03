@@ -118,6 +118,7 @@ ul {
 .header-container {
   display: flex;
   align-items: center;
+  border-bottom: 1px solid #404bbf;
 }
 
 .logo {
@@ -130,7 +131,7 @@ ul {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--primary-skyblue-color);
-  margin-right: 76px;
+  padding-right: 76px;
 }
 
 .logo span {
@@ -188,14 +189,20 @@ ul {
 /* -----main----- */
 /* -----hero----- */
 
+.hero {
+  padding-bottom: 60px;
+}
+
 .hero-container {
   background: var(--primary-black-color);
-  padding: 188px 331px 292px 331px;
+  padding: 188px 472px 292px 472px;
+  width: 100%;
+  max-width: 1440px;
+  height: 600px;
 }
 
 .button {
   padding: 16px 32px;
-  gap: 10px;
   margin-top: 48px;
   margin-left: 170px;
   font-family: inherit;
@@ -219,7 +226,7 @@ ul {
 .advantages-container {
   width: 100%;
   max-width: 1128px;
-  padding: 120px 30px 0 30px;
+  padding: 60px 30px;
 }
 .advantages {
   display: flex;
@@ -228,7 +235,7 @@ ul {
 /* ----- section What are we doing ----- */
 
 .container-doing {
-  padding: 120px 30px 0 30px;
+  padding: 60px 30px;
 }
 
 .doing {
@@ -240,15 +247,17 @@ ul {
 /* ----- section Our Team ----- */
 
 .our-team-container {
-  margin-top: 120px;
+  padding-top: 60px;
   padding-bottom: 120px;
   background: var(--primary-white1-color);
+  width: 100%;
+  max-width: 1440px;
 }
 
 .employees {
   display: flex;
   gap: 24px;
-  margin-top: 72px;
+  padding: 72px 156px;
 }
 
 .li-container {
@@ -263,6 +272,8 @@ ul {
 
 /* -----footer----- */
 .footer-container {
+  width: 100%;
+  max-width: 1440px;
   padding: 100px 738px 100px 156px;
   background: var(--primary-black-color);
 }
@@ -293,7 +304,7 @@ ul {
 .div-btn {
   display: flex;
   gap: 24px;
-  margin-left: 320px;
+  padding: 96px 331px 72px 331px;
 }
 
 .btn {
@@ -306,14 +317,15 @@ ul {
   color: var(--primary-skyblue-color);
   background: var(--primary-white1-color);
   cursor: pointer;
-  height: 48px;
+  padding: 12px 24px;
+  border-radius: 4px;
 }
 
 .all {
   width: 69px;
 }
 .web {
-  width: 116px;
+  width: 126px;
 }
 .app {
   width: 78px;
@@ -334,10 +346,6 @@ ul {
   display: flex;
   gap: 24px;
   padding-top: 72px;
-}
-
-.cont {
-  height: 420px;
 }
 
 .title-cont {
