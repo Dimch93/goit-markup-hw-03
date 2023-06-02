@@ -348,6 +348,7 @@ ul {
   gap: 48px 24px;
   padding-top: 72px;
   padding-bottom: 120px;
+  border-bottom: 1px solid #404bbf;
 }
 
 .title-cont {
