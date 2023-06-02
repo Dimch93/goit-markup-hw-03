@@ -60,6 +60,40 @@ ul {
   padding-right: 15px;
   margin: 0 auto;
 }
+
+.page-title {
+  text-align: center;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  color: var(--primary-white-color);
+}
+
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--primary-black-color);
+}
+
+.title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--primary-black-color);
+}
+
+.section-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--primary-gray-color);
+}
+
 /* -----------header------------ */
 
 .page-header {
@@ -126,9 +160,6 @@ ul {
   gap: 40px;
 }
 
-.adad {
-}
-
 .address-list {
   font-size: 16px;
   line-height: 1.5;
@@ -144,27 +175,16 @@ ul {
 /* -----main----- */
 /* -----hero----- */
 
-.hero {
-}
-
 .hero-container {
   background: var(--primary-black-color);
   padding: 188px 331px 292px 331px;
-}
-
-.page-title {
-  text-align: center;
-  font-size: 56px;
-  line-height: 1.07;
-  letter-spacing: 0.02em;
-  color: var(--primary-white-color);
 }
 
 .button {
   padding: 16px 32px;
   gap: 10px;
   margin-top: 48px;
-  margin-left: 195.5px;
+  margin-left: 170px;
   font-family: inherit;
   font-style: normal;
   font-weight: 500;
@@ -183,49 +203,56 @@ ul {
 
 /* -----section Advantages----- */
 
+.advantages-container {
+  width: 100%;
+  max-width: 1128px;
+  padding: 80px 30px 0 30px;
+}
 .advantages {
+  display: flex;
 }
 
-.section-title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11;
-  text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  color: var(--primary-black-color);
-}
+/* ----- section What are we doing ----- */
 
-.title {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: var(--primary-black-color);
-}
-
-.section-text {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--primary-gray-color);
-}
-
-.our-team {
-  background: var(--primary-white1-color);
-}
-
-.employees {
-  background: var(--primary-white-color);
+.container-doing {
+  padding: 120px 30px 0 30px;
 }
 
 .doing {
   display: flex;
-
-  width: 1128px;
-  height: 412px;
+  gap: 24px;
+  padding-top: 72px;
 }
+
+/* ----- section Our Team ----- */
+
+.our-team-container {
+  margin-top: 120px;
+  padding-bottom: 120px;
+  background: var(--primary-white1-color);
+}
+
+.employees {
+  display: flex;
+  gap: 24px;
+  margin-top: 72px;
+}
+
+.li-container {
+  height: 380px;
+  background: var(--primary-white-color);
+}
+
+.title-container {
+  padding: 35px 16px;
+  text-align: center;
+}
+
 /* -----footer----- */
+.footer-container {
+  padding: 100px 738px 100px 156px;
+  background: var(--primary-black-color);
+}
 
 .footer {
   font-family: Raleway, sans-serif;
@@ -241,6 +268,7 @@ ul {
 }
 
 .footer-text {
+  padding-top: 16px;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -250,13 +278,9 @@ ul {
 /* -----portfolio----- */
 
 .div-btn {
-  list-style: none;
   display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  padding: 0px;
   gap: 24px;
-  margin: 96px 427px 72px 427px;
+  margin-left: 320px;
 }
 
 .btn {
@@ -269,8 +293,24 @@ ul {
   color: var(--primary-skyblue-color);
   background: var(--primary-white1-color);
   cursor: pointer;
+  height: 48px;
 }
 
+.all {
+  width: 69px;
+}
+.web {
+  width: 116px;
+}
+.app {
+  width: 78px;
+}
+.design {
+  width: 101px;
+}
+.marketing {
+  width: 126px;
+}
 .btn:hover,
 .btn:focus {
   color: var(--primary-white-color);
@@ -279,6 +319,21 @@ ul {
 
 .div-container {
   display: flex;
-  width: 1128px;
+  gap: 24px;
+  padding-top: 72px;
+}
+
+.cont {
   height: 420px;
+}
+
+.title-cont {
+  padding: 35px 16px;
+}
+
+.div-container-last {
+  display: flex;
+  gap: 24px;
+  padding-top: 72px;
+  padding-bottom: 120px;
 }
