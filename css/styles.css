@@ -94,6 +94,19 @@ ul {
   color: var(--primary-gray-color);
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 /* -----------header------------ */
 
 .page-header {
@@ -206,7 +219,7 @@ ul {
 .advantages-container {
   width: 100%;
   max-width: 1128px;
-  padding: 80px 30px 0 30px;
+  padding: 120px 30px 0 30px;
 }
 .advantages {
   display: flex;
