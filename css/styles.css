@@ -53,11 +53,14 @@ ul {
   list-style: none;
 }
 
+img {
+  display: block;
+}
+
 .container {
   width: 100%;
   max-width: 1158px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding: 0 15px;
   margin: 0 auto;
 }
 
@@ -113,12 +116,12 @@ ul {
   padding-top: 24px;
   padding-bottom: 24px;
   background: var(--primary-white-color);
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .header-container {
   display: flex;
   align-items: center;
-  border-bottom: 1px solid #404bbf;
 }
 
 .logo {
@@ -131,7 +134,7 @@ ul {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--primary-skyblue-color);
-  padding-right: 76px;
+  margin-right: 76px;
 }
 
 .logo span {
@@ -152,7 +155,7 @@ ul {
 .header-menu {
   display: flex;
   align-items: center;
-  gap: 76px;
+  gap: 40px;
 }
 
 .page-nav {
@@ -178,6 +181,7 @@ ul {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding: 24px 0;
   color: var(--primary-gray-color);
 }
 
@@ -190,15 +194,25 @@ ul {
 /* -----hero----- */
 
 .hero {
-  padding-bottom: 60px;
 }
 
 .hero-container {
   background: var(--primary-black-color);
-  padding: 188px 472px 292px 472px;
+  padding: 188px 0;
   width: 100%;
   max-width: 1440px;
   height: 600px;
+}
+
+.hero-title {
+  text-align: center;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  color: var(--primary-white-color);
+  max-width: 496px;
+  margin-left: 472px;
+  padding-bottom: 48px;
 }
 
 .button {
@@ -214,6 +228,10 @@ ul {
   color: var(--primary-white-color);
   background: var(--primary-skyblue-color);
   cursor: pointer;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
 }
 
 .button:hover,
@@ -223,45 +241,93 @@ ul {
 
 /* -----section Advantages----- */
 
+.section-advantages {
+  padding: 120px 0;
+}
+
 .advantages-container {
   width: 100%;
   max-width: 1128px;
-  padding: 60px 30px;
+  padding: 0px 30px;
 }
 .advantages {
   display: flex;
+  gap: 24px;
 }
 
+.advantages-list {
+  width: calc((100% - 72px) / 4);
+}
+
+.title-list {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--primary-black-color);
+  margin-bottom: 8px;
+}
 /* ----- section What are we doing ----- */
 
+.section-doing {
+  padding-bottom: 120px;
+}
+
+.doing-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--primary-black-color);
+  margin-bottom: 72px;
+}
 .container-doing {
-  padding: 60px 30px;
+  padding: 0px 30px;
 }
 
 .doing {
   display: flex;
   gap: 24px;
-  padding-top: 72px;
+}
+
+.doing-list {
+  width: calc((100% - 48px) / 3);
 }
 
 /* ----- section Our Team ----- */
 
+.section-our-tem {
+  padding: 120px 0;
+}
+
 .our-team-container {
-  padding-top: 60px;
-  padding-bottom: 120px;
+  padding: 120px 0;
   background: var(--primary-white1-color);
   width: 100%;
   max-width: 1440px;
 }
 
+.employees-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--primary-black-color);
+  margin-bottom: 72px;
+}
 .employees {
   display: flex;
   gap: 24px;
-  padding: 72px 156px;
+  padding: 0px 156px;
 }
 
-.li-container {
-  height: 380px;
+.employees-list {
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
   background: var(--primary-white-color);
 }
 
@@ -270,7 +336,21 @@ ul {
   text-align: center;
 }
 
+.title-text {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--primary-black-color);
+  margin-bottom: 8px;
+}
+
 /* -----footer----- */
+
+.page-footer {
+  padding: 100px 0;
+}
+
 .footer-container {
   width: 100%;
   max-width: 1440px;
@@ -286,7 +366,10 @@ ul {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--primary-skyblue-color);
+  display: inline-block;
+  margin-bottom: 16px;
 }
+
 .footer span {
   color: #f4f4fd;
 }
@@ -301,10 +384,14 @@ ul {
 
 /* -----portfolio----- */
 
+.section-portfolio {
+  padding: 96px 0 120px 0;
+}
+
 .div-btn {
   display: flex;
   gap: 24px;
-  padding: 96px 331px 72px 331px;
+  padding: 0px 331px 72px 331px;
 }
 
 .btn {
@@ -347,7 +434,6 @@ ul {
   flex-wrap: wrap;
   gap: 48px 24px;
   padding-top: 72px;
-  padding-bottom: 120px;
   border-bottom: 1px solid #404bbf;
 }
 
