@@ -353,9 +353,6 @@ img {
   gap: 24px;
   margin-bottom: 72px;
   padding: 0px 331px 0px 331px;
-  padding: 12px 24px;
-  border: 1px solid #e7e9fc;
-  border-radius: 4px;
 }
 
 .btn {
@@ -368,23 +365,11 @@ img {
   color: var(--primary-skyblue-color);
   background: var(--primary-white1-color);
   cursor: pointer;
+  padding: 12px 24px;
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
 }
 
-.all {
-  width: 69px;
-}
-.web {
-  width: 126px;
-}
-.app {
-  width: 78px;
-}
-.design {
-  width: 101px;
-}
-.marketing {
-  width: 126px;
-}
 .btn:hover,
 .btn:focus {
   border: 1px solid transparent;
