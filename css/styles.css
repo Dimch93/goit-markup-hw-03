@@ -68,11 +68,11 @@ img {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
-  text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--primary-black-color);
   margin-bottom: 72px;
+  text-align: center;
 }
 
 .title {
@@ -82,7 +82,6 @@ img {
   letter-spacing: 0.02em;
   color: var(--primary-black-color);
   margin-bottom: 8px;
-  text-align: center;
 }
 
 .section-text {
@@ -183,6 +182,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--primary-gray-color);
+  font-style: normal;
 }
 
 .address .address-list:hover,
@@ -195,13 +195,11 @@ img {
 
 .hero {
   padding: 188px 0;
+  background: var(--primary-black-color);
 }
 
 .hero-container {
-  background: var(--primary-black-color);
   width: 100%;
-  max-width: 1440px;
-  height: 600px;
 }
 
 .hero-title {
@@ -211,8 +209,9 @@ img {
   letter-spacing: 0.02em;
   color: var(--primary-white-color);
   max-width: 496px;
-  margin-left: 472px;
-  padding: 188px 0 48px 0;
+  margin-bottom: 48px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .button {
@@ -246,9 +245,6 @@ img {
 }
 
 .advantages-container {
-  width: 100%;
-  max-width: 1128px;
-  padding: 0px 30px;
 }
 .advantages {
   display: flex;
@@ -266,7 +262,6 @@ img {
 }
 
 .container-doing {
-  padding: 0px 30px;
 }
 
 .doing {
@@ -282,11 +277,10 @@ img {
 
 .section-our-tem {
   padding: 120px 0;
+  background: var(--primary-white1-color);
 }
 
 .our-team-container {
-  padding: 120px 0;
-  background: var(--primary-white1-color);
 }
 
 .employees {
@@ -303,19 +297,17 @@ img {
 .title-container {
   padding: 32px 16px;
   align-items: center;
+  text-align: center;
 }
 
 /* -----footer----- */
 
 .page-footer {
   padding: 100px 0;
+  background: var(--primary-black-color);
 }
 
 .footer-container {
-  width: 100%;
-  max-width: 1440px;
-  padding: 100px 738px 100px 156px;
-  background: var(--primary-black-color);
 }
 
 .footer {
@@ -335,11 +327,11 @@ img {
 }
 
 .footer-text {
-  padding-top: 16px;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--primary-white1-color);
+  max-width: 264px;
 }
 
 /* -----portfolio----- */
@@ -353,7 +345,6 @@ img {
   justify-content: center;
   gap: 24px;
   margin-bottom: 72px;
-  padding: 0px 331px 0px 331px;
 }
 
 .btn {
@@ -382,8 +373,6 @@ img {
   display: flex;
   flex-wrap: wrap;
   gap: 48px 24px;
-  padding-top: 72px;
-  border-bottom: 1px solid #404bbf;
 }
 
 .portfolio-list {
